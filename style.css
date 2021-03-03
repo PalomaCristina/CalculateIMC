@@ -1,0 +1,63 @@
+body {
+    background-color: #F0F0F0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h3 {
+    color: #2F4F4F;
+    font-size: 27px;  
+    display: flex;
+
+}
+
+#calcular {
+    background-color: #68838B;
+    border-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 185px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0px;
+}
+
+.input-style {
+    background-color:#DCDCDC;
+    border-color : black;
+    border-radius: 5px;
+    height: 27px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
